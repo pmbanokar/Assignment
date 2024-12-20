@@ -1,0 +1,4 @@
+apiVersion: v2
+name: nodejs-app
+description: A Node.js application for EKS deployment with NLB.
+version: 0.1.0
