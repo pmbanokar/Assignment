@@ -1,0 +1,7 @@
+spec:
+  containers:
+    - name: nodejs-app
+      image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+      ports:
+        - containerPort: 8080
+      resources: {}
