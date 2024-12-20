@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-west-2" # Change as needed
+  region = "us-west-2"
 }
 
 provider "kubernetes" {
